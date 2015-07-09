@@ -1,0 +1,9 @@
+#JSGF V1.0;
+ 
+/**
+ * JSGF Grammar
+ */
+ 
+grammar tcc;
+ 
+public <greet> = (aberto | ola | palavra |fechar) ( programa| porta | mundo| janela| casa);
